@@ -23,6 +23,7 @@ class Ui_LoginPage(object):
         self.passwordText = QtWidgets.QLineEdit(self.centralwidget)
         self.passwordText.setGeometry(QtCore.QRect(100, 110, 111, 21))
         self.passwordText.setObjectName("passwordText")
+        self.passwordText.setEchoMode(QtWidgets.QLineEdit.Password)
         self.codeText = QtWidgets.QLineEdit(self.centralwidget)
         self.codeText.setGeometry(QtCore.QRect(100, 150, 111, 21))
         self.codeText.setObjectName("codeText")
